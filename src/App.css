@@ -42,11 +42,17 @@ div.carousel-image img {
 .outer-div-courses{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
 }
 .outer-div-courses div{
-    background-color: rgb(143, 196, 231);
+    background-color: #d487dd;
+    border-radius: 10px;
+    margin: 5px auto;
 }
 
-.outer-div-courses div p:first{
+.outer-div-courses div h5{
     border: 1px solid black;
+    border-radius: 50%;
+    padding: 0.5em;
 }
