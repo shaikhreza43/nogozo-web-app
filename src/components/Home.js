@@ -26,6 +26,7 @@ import SearchIcon from "@mui/icons-material/Search";
 import HomeCarousel from "./HomeCarousel";
 import CoursesCard from "./CoursesCard";
 import Novels from "./Novels";
+import FeaturedNovels from "./FeaturedNovels";
 
 const drawerWidth = 220;
 
@@ -228,6 +229,9 @@ function Home(props) {
           </div>
           <div className="row mt-5">
               <Novels />
+          </div>
+          <div className="row featured-novels-row">
+              <FeaturedNovels />
           </div>
         </div>
       </Box>

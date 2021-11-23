@@ -94,10 +94,6 @@ export default function Novels(props) {
           </div>
         </div>
       </Slider>
-        <div className="col-lg-2"></div>
-      {/* <Slider {...settings} className="col-lg-5" autoplay="5000">
-       
-      </Slider>*/}
       </div> 
     </div>
   );
