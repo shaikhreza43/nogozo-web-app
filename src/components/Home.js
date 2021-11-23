@@ -25,6 +25,7 @@ import InputBase from "@mui/material/InputBase";
 import SearchIcon from "@mui/icons-material/Search";
 import HomeCarousel from "./HomeCarousel";
 import CoursesCard from "./CoursesCard";
+import Novels from "./Novels";
 
 const drawerWidth = 220;
 
@@ -224,6 +225,9 @@ function Home(props) {
             <div className="col-lg-12">
               <CoursesCard />
             </div>
+          </div>
+          <div className="row mt-5">
+              <Novels />
           </div>
         </div>
       </Box>
